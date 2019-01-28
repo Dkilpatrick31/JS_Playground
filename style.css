@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Libre Barcode 128 Text', cursive;
+  text-align: center;
+  font-size: 3.5em;
+  background: blue;
+}
+
+
+/* Classes  */ ----------------------------------
+
+header {
+  width: 100%;
+  margin-left: 250px;
+}
+
+.gameboard {
+  background: blue;
+  border: 4px red solid;
+  width: 50%;
+  text-align: center;
+  margin-left: 300px;
+  margin-top: 150px;
+}
+
+.first-row,
+.second-row,
+.third-row {
+  background: white;
+  font-size: 7em;
+  margin: 25px;
+
+}
+
+.first-row {
+
+}
+
+.second-row {
+
+}
+
+.third-row {
+
+}
