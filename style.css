@@ -10,6 +10,7 @@ h1 {
 }
 
 
+
 /* Classes  */ ----------------------------------
 
 header {
@@ -24,25 +25,4 @@ header {
   text-align: center;
   margin-left: 300px;
   margin-top: 150px;
-}
-
-.first-row,
-.second-row,
-.third-row {
-  background: white;
-  font-size: 7em;
-  margin: 25px;
-
-}
-
-.first-row {
-
-}
-
-.second-row {
-
-}
-
-.third-row {
-
 }
