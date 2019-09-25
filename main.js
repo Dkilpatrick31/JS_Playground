@@ -70,33 +70,33 @@
 
 
 // Store and Access Data with Objects
-var movies = [
-  {
-    title: 'Wonder Woman',
-    time: '1pm',
-    status: 'unavailable'
-  },
-  {
-    title: 'Avengers',
-    time: '2pm',
-    status: 'available'
-  },
-  {
-    title: 'Titanic',
-    time: '3pm',
-    status: 'unavailable'
-  },
-  {
-    title: 'Us',
-    time: '4pm',
-    status: 'available'
-  }
-];
-
-for(var movie of movies) {
-  if (movie.status === 'available') {
-    console.log(`The movie ${movie.title} plays at ${movie.time}`);
-  } else {
-    console.log(`Sorry, the movie ${movie.title} is playing at ${movie.time}`);
-  }
-}
+// var movies = [
+//   {
+//     title: 'Wonder Woman',
+//     time: '1pm',
+//     status: 'unavailable'
+//   },
+//   {
+//     title: 'Avengers',
+//     time: '2pm',
+//     status: 'available'
+//   },
+//   {
+//     title: 'Titanic',
+//     time: '3pm',
+//     status: 'unavailable'
+//   },
+//   {
+//     title: 'Us',
+//     time: '4pm',
+//     status: 'available'
+//   }
+// ];
+//
+// for(var movie of movies) {
+//   if (movie.status === 'available') {
+//     console.log(`The movie ${movie.title} plays at ${movie.time}`);
+//   } else {
+//     console.log(`Sorry, the movie ${movie.title} is playing at ${movie.time}`);
+//   }
+// }
