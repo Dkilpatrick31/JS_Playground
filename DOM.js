@@ -1,8 +1,10 @@
 
 // Selecting the element
 const myHeading = document.getElementById('myHeading');
+const myButton = document.getElementById('myButton');
+const myTextInput = document.getElementById('myTextInput');
 
 // Telling the element to listen for clicks and manipulate the element based off of the code inside the function.
-myHeading.addEventListener('click', () => {
-  myHeading.style.color = 'red';
-});
+myButton.addEventListener('click', () => {
+  myHeading.style.color = myTextInput.value;
+})
